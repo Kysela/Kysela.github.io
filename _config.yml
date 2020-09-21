@@ -1,5 +1,5 @@
 # Site
-repository: Kysela/Kysela.github.io
+repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
 # Personal info
@@ -50,7 +50,7 @@ more_content: | # this will include new lines to allow paragraphs
 footer_show_references: true
 
 # Build settings
-remote_theme: Kysela/Kysela.github.io
+remote_theme: sproogen/resume-theme
 
 sass:
   sass_dir: _sass
