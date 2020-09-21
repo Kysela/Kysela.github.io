@@ -1,23 +1,23 @@
 # Site
-repository: sproogen/resume-theme
+repository: Kysela/Kysela.github.io
 favicon: images/favicon.ico
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: František Kysela
+title: Self-taught software developer
+email: bythedroid@gmail.com
+website: Kysela.github.io
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+twitter_username: ATGDroid
+github_username: Kysela
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: chillwildlife
+instagram_username: frantakysela
 linkedin_username: jameswgrant
 # pinterest_username: jekyll
-youtube_username: globalmtb
+#youtube_username: globalmtb
 # googleplus_username: +jekyll
 
 # About Section
@@ -50,7 +50,7 @@ more_content: | # this will include new lines to allow paragraphs
 footer_show_references: true
 
 # Build settings
-remote_theme: sproogen/resume-theme
+remote_theme: Kysela/Kysela.github.io
 
 sass:
   sass_dir: _sass
