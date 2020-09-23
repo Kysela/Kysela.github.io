@@ -6,7 +6,7 @@ favicon: images/favicon.ico
 name: František Kysela
 title: Self-taught software developer, started as freshman in high school
 email: bythedroid@gmail.com
-website: Kysela.github.io
+website: kysela.github.io
 
 # Social links
 twitter_username: ATGDroid
@@ -15,7 +15,6 @@ github_username: Kysela
 facebook_username: frantakysela
 # flickr_username: jekyll
 instagram_username: frantakysela
-snapchat_username: pansklenicka
 # linkedin_username: jameswgrant
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -25,7 +24,7 @@ snapchat_username: pansklenicka
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Frank, i started to be interested in software development already in elementary school when i was deeply interested in mobile phones, especially Android based devices. I was all day long studying how Android works, how boot animation is loaded, or how user can gain root access. When i got in to high school i extended my interest by getting in to the Android community based development scene, there i launched on my own two big personal projects, got incredible amount of experience and met a lot of new people. 
+  Hi, my name's Frank, or also František in czech, i started to be interested in software development already in elementary school when i had a huge passion for mobile phones, especially Android based devices. I was all day long studying how Android works, how boot animation is loaded, or how user can gain root access. When i got in to high school i extended my interest by getting in to the Android community based development scene, there i launched on my own two big personal projects, got incredible amount of experience and met a lot of new people.
 
 
 
