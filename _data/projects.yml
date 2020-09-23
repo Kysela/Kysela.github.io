@@ -1,8 +1,8 @@
 - layout: top-middle
   name: RedWolf Recovery Project
   link: redwolfrecovery.github.io
-  github: github.com/RedWolfRecovery
+  github: RedWolfRecovery
   quote: >
-    My completely first project which i coded, tested and shipped only using my phone
+    My completely first project which i coded, tested and shipped only using my phone during my classes on high school
   description: | # this will include new lines to allow paragraphs
-    This project was started completely only out of my own passion I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+    This project was started completely only out of my own passion for Android, i enjoyed flashing different custom ROMs, kernels and other modifications on my phone through TWRP custom recovery, so that was the time when i thought about making my own version of it. At the beggining i didn't even know what i'm doing but as time went, project started to grow, number of users started to increase day by day until project reached something around 100000 users.
