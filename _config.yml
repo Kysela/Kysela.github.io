@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/resume-theme
+repository: Kysela/Kysela.github.io
 favicon: images/favicon.ico
 
 # Personal info
@@ -25,7 +25,7 @@ instagram_username: frantakysela
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Frank, or also František in czech, i started to be interested in software development already in elementary school when i had a huge passion for mobile phones, especially Android based devices. I was all day long studying how Android works, how boot animation is loaded, or how user can gain root access. When i got in to high school i extended my interest by getting in to the Android community based development scene, there i launched on my own two big personal projects, got incredible amount of experience and met a lot of new people.
+  Hi, my name is Frank, or also František in czech, i started to be interested in software development already in elementary school when i had a huge passion for mobile phones, especially Android based devices. I was all day long studying how Android works, how boot animation is loaded, or how user can gain root access. When i got in to high school i extended my interest by getting in to the Android community based development scene, there i launched on my own two big personal projects, got incredible amount of experience and met a lot of new people.
 
 
 
