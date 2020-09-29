@@ -6,11 +6,11 @@ favicon: images/favicon.ico
 name: František Kysela
 title: Self-taught software developer, started as freshman in high school
 email: bythedroid@gmail.com
-phone: +420702764762
+phone: +420 702 764 762
 website: t.me/ATGDroid
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 twitter_username: frantakysela
@@ -66,7 +66,7 @@ more_content: | # this will include new lines to allow paragraphs
   Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 
 # Build settings
 remote_theme: sproogen/resume-theme
