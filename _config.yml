@@ -46,19 +46,10 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-Hi, my name is Frank, or also František in czech, i started to be interested in software development already in elementary school when i had a huge passion for mobile phones, especially Android based devices. I was all day long studying how Android works, how boot animation is loaded, how you can change boot logo, or how user can gain root access. When i got in to high school i extended my interest by getting in to the Android community based development scene, there i launched on my own two big personal projects, got incredible amount of experience and met a lot of new people, since then i'm focusing mostly on my personal projects.
-
-
-
+  Hi, my name is Frank, or also František in czech, i started to be interested in software development already in elementary school when i had a huge passion for mobile phones, especially Android based devices. I was all day long studying how Android works, how boot animation is loaded, how you can change boot logo, or how user can gain root access. When i got in to high school i extended my interest by getting in to the Android community based development scene, there i launched on my own two big personal projects, got incredible amount of experience and met a lot of new people, since then i'm focusing mostly on my personal projects.
+  
   I am most skilled in: <mark>c/c++</mark> and <mark>bash</mark>
 
-
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
 
