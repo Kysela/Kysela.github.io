@@ -1,20 +1,20 @@
-- name: RedWolf Recovery Project
-  link: redwolfrecovery.github.io
-  github: RedWolfRecovery
+- name: Pterodon Recovery Project
+  link:
+  github: PterodonRecovery
   quote: >
-   June 2017 - July 2018 |
-   My completely first project which i coded, tested and shipped only using my phone during my classes on high school
+   Definitely my biggest project which i ever started as teenager in high school
   description: | # this will include new lines to allow paragraphs
     This project was started completely only out of my own passion for Android, i enjoyed flashing different custom ROMs, kernels and other modifications on my phone through TWRP custom recovery, so that was the time when i thought about making my own version of it. At the beggining i didn't even know what i'm doing but as time went, my programming skills were getting better, project started to grow and number of users started to increase until project reached something around 100000 users. This project is now called as the mother of custom TWRP based development, since all modern projects are now deriving from this work.
+
 
 - name: RedWolf Recovery Project
   link: redwolfrecovery.github.io
   github: RedWolfRecovery
   quote: >
-   June 2017 - July 2018 |
    My completely first project which i coded, tested and shipped only using my phone during my classes on high school
   description: | # this will include new lines to allow paragraphs
-    This project was started completely only out of my own passion for Android, i enjoyed flashing different custom ROMs, kernels and other modifications on my phone through TWRP custom recovery, so that was the time when i thought about making my own version of it. At the beggining i didn't even know what i'm doing but as time went, my programming skills were getting better, project started to grow and number of users started to increase until project reached something around 100000 users. This project is now called as the mother of custom TWRP based development, since all modern projects are now deriving from this work.
+    This project was started completely only out of my own passion for Android, i enjoyed flashing different custom ROMs, kernels and other modifications on my phone through TWRP custom recovery, so that was the time when i thought about making my own version of it. At the beggining i didn't even know what i'm doing but as time went, my programming skills were getting better, project started to grow and number of users started to increase until project reached something around 100000 users. This project is now called as the mother of custom TWRP based development, since all modern projects are now deriving from this work. The main features which this project introduced was recovery password protection, support for Incremental MIUI OTA updates, automatic deactivation of DM-verity and forced encryption.
+
 
 - name: RedWolf Recovery Project
   link: redwolfrecovery.github.io
