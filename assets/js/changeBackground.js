@@ -1,4 +1,4 @@
-var divItems = document.getElementsByClassName("col-xs-12 col-sm-4 col-md-3 no-print");
+document.getElementById("about-profile-img").addEventListener("click", changeBackground);
 
 function changeBackground() {
    if (document.body.style.background == "white" ||
@@ -7,3 +7,5 @@ function changeBackground() {
        else
        document.body.style.background = "white";
 }
+
+
