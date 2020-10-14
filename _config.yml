@@ -7,6 +7,7 @@ name: František Kysela
 title: Self-taught software developer, started as freshman in high school
 email: bythedroid@gmail.com
 phone: +420 702 764 762
+website_title: My blog
 website: t.me/ATGDroid
 
 # Dark Mode (true/false/never)
@@ -79,7 +80,7 @@ more_content: | # this will include new lines to allow paragraphs
 footer_show_references: false
 
 # Build settings
-remote_theme: sproogen/resume-theme
+remote_theme: Kysela/modern-resume-theme
 
 sass:
   sass_dir: _sass
