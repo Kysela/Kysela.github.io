@@ -3,9 +3,9 @@
   dates: September 2016 -  June 2020
   qualification: Information Technology
   quote: > 
-   My local high school, i graduated here as IT major with main focus on computer networks
+   My local high school, i graduated here as <mark>IT major</mark> with main focus on <mark>computer networks</mark>
     
   description: | # this will include new lines to allow paragraphs
-    During my time at high school I learnt mostly about how computer networks works, how to manage windows servers, Linux machines, basics of computer network theory, networking models, concepts etc.
+    During my time at high school I learned mostly about how <mark>computer networks</mark> works, how to manage windows servers, Linux machines, basics of computer network theory, networking models and concepts etc.
 
     I spent a lot of my free time developing various personal projects and bulding up my coding skills, especially c/c++ and bash

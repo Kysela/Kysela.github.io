@@ -56,7 +56,7 @@ google_analytics: "UA-179241205-1"
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Frank, or also František in czech, i started to be interested in software development already in elementary school when i had a huge passion for mobile phones, especially Android based devices.
+  Hi, my name is <mark>Frank</mark>, or also <mark>František</mark> in czech, i started to be interested in software development already in <mark>elementary school</mark>when i had a huge passion for mobile phones, especially <mark>Android based devices</mark>.
   
   I am most skilled in: <mark>c/c++</mark> and <mark>bash</mark>
 
@@ -72,7 +72,7 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 # more_title: My view #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
-   I believe that everyone on this world was born for a reason and that we all should do whatever it takes to leave something behind us once we leave this world. I'm fully ready to work my ass of in order to impact this world as much as possible. If you have some amazing plan and you need people to help you with it, don't worry to hit me up!
+   I believe that everyone on this world was <mark>born for a reason</mark> and that we all should do <mark>whatever it takes</mark> to leave something behind us once we <mark>leave this world</mark>. I'm fully ready to work my ass of in order to <mark>impact</mark> this world as much as possible. If you have some amazing plan and you need people to help you with it, don't worry to <mark>hit me up</mark>!
    
 
 # Footer
