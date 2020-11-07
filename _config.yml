@@ -56,7 +56,7 @@ google_analytics: "UA-179241205-1"
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is <mark>Frank</mark>, or also <mark>František</mark> in czech, i started to be interested in software development already in <mark>elementary school</mark>when i had a huge passion for mobile phones, especially <mark>Android based devices</mark>.
+  Hi, my name is <mark>Frank</mark>, or also <mark>František</mark> in Czech, i started to be interested in software development already in <mark>elementary school</mark>when i had a huge passion for mobile phones, especially <mark>Android based devices</mark>.
   
   I am most skilled in: <mark>c/c++</mark> and <mark>bash</mark>
 
