@@ -1,11 +1,11 @@
 - name: Pterodon Recovery Project
-  link:
+  link: https://www.xda-developers.com/pterodon-recovery-project-is-a-new-custom-recovery-for-android-devices-with-an-optimized-gui-and-more-features
   dates: September 2019 - Present
   github: PterodonRecovery
   quote: >
    Definitely my biggest project which i ever started as teenager in high school
   description: | # this will include new lines to allow paragraphs
-    This project was started completely only out of my own passion for Android, i enjoyed flashing different custom ROMs, kernels and other modifications on my phone through TWRP custom recovery, so that was the time when i thought about making my own version of it. At the beggining i didn't even know what i'm doing but as time went, my programming skills were getting better, project started to grow and number of users started to increase until project reached something around 100000 users. This project is now called as the mother of custom TWRP based development, since all modern TWRP based projects are now deriving from this work.
+    Development of this project was planned since July 2018, which was the time when my first project, RedWolf Recovery ended. The idea of building a completely new custom recovery from scratch was for everyone incredibly crazy, but i like to challenge myself and i felt like that if i don't try, i will regret it later. It took like a year and a half of messing around until i built the right architecture on which this project is now based on. At this point it's still in alpha development stage, since it's really hard to find people for contributions, but if you want to help this project grow then check out it's github, it's open source for a reason! ;)
 
 
 - name: RedWolf Recovery Project
