@@ -72,7 +72,6 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 more_title: My view #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
-   I believe that everyone on this world was <mark>born for a reason</mark> and that we all should do <mark>whatever it takes</mark> in order to leave something behind us once we <mark>leave this world</mark>. I'm fully ready to work my ass of in order to <mark>impact</mark> this world as much as possible. If you have some amazing plan and you need people to help you with it, don't worry to <mark>hit me up</mark>!
    
 
 # Footer
