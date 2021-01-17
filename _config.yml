@@ -39,6 +39,9 @@ additional_links:
 - title: Paypal
   icon: fa-paypal
   url: https://paypal.me/atgdroid
+- title: YouTube
+  icon: fa-youtube
+  url: https://youtube.com/channel/UCoKibRktD3XD1t19t_dPXHA
 
 google_analytics: "UA-179241205-1"
  
