@@ -15,7 +15,7 @@ darkmode: true
 # Social links
 twitter_username: frantakysela
 github_username:  Kysela
-stackoverflow_username: "14166195"
+#stackoverflow_username: "14166195"
 #dribbble_username: jekyll
 facebook_username: frantakysela
 #flickr_username: jekyll
@@ -35,7 +35,7 @@ additional_links:
   url: https://www.snapchat.com/add/pansklenicka
 - title: Telegram
   icon: fa-telegram
-  url: https://t.me/ATG_Droid
+  url: https://t.me/frantakysela
 - title: Paypal
   icon: fa-paypal
   url: https://paypal.me/atgdroid
