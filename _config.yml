@@ -30,9 +30,6 @@ linkedin_username: frantakysela
 
 # Additional icon links
 additional_links:
-- title: Twitch
-  icon: fa-twitch
-  url: https://m.twitch.tv/frantakysela
 - title: Snapchat
   icon: fa-snapchat
   url: https://www.snapchat.com/add/pansklenicka
@@ -42,9 +39,9 @@ additional_links:
 - title: Paypal
   icon: fa-paypal
   url: https://paypal.me/atgdroid
-- title: YouTube
-  icon: fa-youtube
-  url: https://youtube.com/channel/UCoKibRktD3XD1t19t_dPXHA
+- title: Twitch
+  icon: fa-twitch
+  url: https://m.twitch.tv/frantakysela
 
 
 
