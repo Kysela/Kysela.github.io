@@ -1,19 +1,60 @@
-  - layout: left
-        border: weak
-        title: NatWest
-        sub_title: Frontend Software Engineer
-        caption: August 2017 - July 2021
-        description: |
-          Working at NatWest as a front end engineer focusing mostly on a corporate banking product called Bankline.
-          Working as part of a scrum team consiting of 5 developers, 2 testers and a PO/BA I have the oportunity to help drive the team forwards and
-          work with the PO defining what we are building.
-          I spend most of my time working on a specifc area of a large application that our team take ownership over. The front end is a <mark>React</mark> app
-          that talks to an API built using a collection of <mark>Java</mark> microservices. I have spent time working in multiple parts of the stack including
-          helping to define our front end architecure to follow best practices to implementing PDF and CSV export in a microservice.
-          Last year I took the lead on rebuilding the login journey to our application. I worked with the architects and designers to create something that would
-          be fit for purpose and be easy to maintain for years to come. I then built this to a high standard which lead to a seamless switch over from the previous
-          system with no issues. More recently I have acted as a consultant to external teams and application architects to advise on how we should be building new
-          functionality within our application. I have also built reusable components to the same standards as opensource libraries which have been used by different teams across the bank.
-          I enjoy learning about all areas of our application which allows me to be a go-to person for knowledge and queries within my team and the other teams
-          in the office. I am always looking to suggest improvements and challenge what and how we are working to make sure we are delivering the best service
-          to the customers while also developing to the highest standards.
+company: DivideBuy - Interest Free Credit
+  link: dividebuy.co.uk
+  job_title: Lead Developer
+  dates: April 2018 - Present
+  description: | # this will include new lines to allow paragraphs
+    I currently work at DivideBuy, helping them rebuild and refactor their <mark>FinTech</mark> application. I work as part of a multi-national team that has many developers, QA testers and a BA. I help drive the team and decide the direction and structure of the application. 
+    
+    I spend my time working on developing <mark>Microservices</mark> in the <mark>Laravel</mark> and <mark>Lumen</mark> <mark>PHP</mark> frameworks. The application consists of several <mark>Angular</mark> frontends that talk to a series of APIs to provide smooth and seemless user journeys.
+    
+    In the background there are a series of message queues that help process data. They also form the core of a feedback loop for machine learning to help drive credit decisions. 
+    
+    I enjoy getting to know all the areas of our app, which allows me to be the person to go to for system knowledge. I deal with managing a team, helping my staff learn and providing insight on a day to day basis. I also love looking for areas to improve our app and make it more performant and better for our users.
+- company: Samarkand Global
+  link: samarkand.global
+  job_title: Senior Platform Engineer
+  dates: November 2016 - April 2018
+  description: | # this will include new lines to allow paragraphs
+    temp
+- company: uCribs
+  link: ucribs.com
+  job_title: Senior Platform Engineer
+  dates: November 2014 - November 2016
+  description: | # this will include new lines to allow paragraphs
+    I was responsible for converting a <mark>Wordpress</mark> site into a more fully featured <mark>Laravel</mark> Application, optimising the Database, and improving functionality with new features. 
+    
+    Part of this was using Haversine formula for managing rapid lookups in the Database for Properties within certain radiuses (assisted with using bounding boxes to create subsets of data). 
+    
+    The redevelopment of the uCribs site was supported with a <mark>Bootstrap</mark> based frontend that used <mark>KnockoutJS</mark> to handle front end interface. KnockoutJS was used to provide <mark>Single Page Application</mark> style interaction on the site.
+    
+    I was also responsible for managing the site on a fully load balanced <mark>AWS</mark> using OpsWorks with custom written <mark>Chef</mark> recipies to control application deployment and rollout.
+    
+    Development of the application also included implementing <mark>Stripe</mark> and <mark>Mandrill</mark> including creation of webhook handlers to manage inbound data.
+- company: Libero Net
+  link: liberonet.co.uk
+  job_title: Lead Developer
+  dates: August 2013 - November 2014
+  description: | # this will include new lines to allow paragraphs
+    Libero Net is a Web Development Agency that I worked for as the lead developer primarily working with <mark>Wordpress</mark>, <mark>Laravel</mark> and <mark>Prestashop</mark>.
+    
+    My primary responsibility was for the creation, management and development of Applications for clients, primarily related to back end development working alongside front end developers.
+    
+    While doing this I also developed numerous <mark>Wordpress Plugins</mark> that Libero Net was able to use for a multitude of their clients speeding up the development process. 
+    
+    As a secondary responsibility, I was responsible for managing the server environments for both existing clients and new clients.
+- company: Freelance
+  job_title: Web Developer
+  dates: October 2012 - August 2013
+  description: | # this will include new lines to allow paragraphs
+    I worked freelance for over a year, providing web application development services. During this time I worked on backend applications. These were generally <mark>Laravel</mark> applications.
+    I was responsible for managing time, invoices and client communication. I handled design and specification of applications to best suit client needs.
+- company: UK Fuels
+  link: ukfuels.co.uk
+  job_title: System Developer
+  dates: October 2011 - October 2012
+  description: | # this will include new lines to allow paragraphs
+    UK Fuels Limited is a Fuel Card company that provides commercial rate fuel to business.
+    I worked with them to create a Sales Agent <mark>Management System</mark> based on the <mark>Django Framework</mark>. It is a <mark>Python</mark> app that allows management staff to enter statistics on sales agents. The statistics are then used to generate reports on a regular basis. 
+    It features views to show different statistics to different user groups. This includes showing sales agents calculated commission based on their sales volume. 
+    The application makes use of migrations to control the data models.
+    I also provided day to day tech support for the sales and admin team. 
