@@ -21,7 +21,7 @@ facebook_username: frantakysela
 #flickr_username: jekyll
 instagram_username: frantakysela
 linkedin_username: frantakysela
-youtube_username: channel/UCoKibRktD3XD1t19t_dPXHA
+youtube_username: "channel/UCoKibRktD3XD1t19t_dPXHA"
 #xing_username: jekyll
 #pinterest_username: jekyll
 #youtube_username: jekyll
@@ -31,16 +31,16 @@ youtube_username: channel/UCoKibRktD3XD1t19t_dPXHA
 # Additional icon links
 additional_links:
 - title: Snapchat
-  icon: fa-snapchat
+  icon: fab fa-snapchat
   url: https://www.snapchat.com/add/pansklenicka
 - title: Telegram
-  icon: fa-telegram
+  icon: fab fa-telegram
   url: https://telegram.dog/frantakysela
 - title: Paypal
-  icon: fa-paypal
+  icon: fab fa-paypal
   url: https://paypal.me/atgdroid
 - title: Twitch
-  icon: fa-brands fa-twitch
+  icon: fab fa-twitch
   url: https://m.twitch.tv/frantakysela
 #- title: YouTube
 #  icon: fa-youtube
