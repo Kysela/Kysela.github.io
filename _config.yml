@@ -21,7 +21,7 @@ facebook_username: frantakysela
 #flickr_username: jekyll
 instagram_username: frantakysela
 linkedin_username: frantakysela
-youtube_username: UCoKibRktD3XD1t19t_dPXHA
+youtube_username: channel/UCoKibRktD3XD1t19t_dPXHA
 #xing_username: jekyll
 #pinterest_username: jekyll
 #youtube_username: jekyll
@@ -40,7 +40,7 @@ additional_links:
   icon: fa-paypal
   url: https://paypal.me/atgdroid
 - title: Twitch
-  icon: fa-twitch
+  icon: fa-brands fa-twitch
   url: https://m.twitch.tv/frantakysela
 #- title: YouTube
 #  icon: fa-youtube
