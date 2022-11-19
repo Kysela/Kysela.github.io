@@ -21,7 +21,7 @@ facebook_username: frantakysela
 #flickr_username: jekyll
 instagram_username: frantakysela
 linkedin_username: frantakysela
-youtube_username: "channel%2FUCoKibRktD3XD1t19t_dPXHA"
+#youtube_username: "channel%2FUCoKibRktD3XD1t19t_dPXHA"
 #xing_username: jekyll
 #pinterest_username: jekyll
 #youtube_username: jekyll
@@ -42,9 +42,9 @@ additional_links:
 - title: Twitch
   icon: fab fa-twitch
   url: https://m.twitch.tv/frantakysela
-#- title: YouTube
-#  icon: fa-youtube
-#  url: https://youtube.com/channel/UCoKibRktD3XD1t19t_dPXHA
+- title: YouTube
+  icon: fab fa-youtube
+  url: https://youtube.com/channel/UCoKibRktD3XD1t19t_dPXHA
 
 
 
