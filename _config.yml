@@ -4,8 +4,8 @@ favicon: images/favicon.ico
 
 # Personal info
 name: František Kysela
-title: Self-taught software developer, started as freshman on high school
-email: business@frantakysela.com
+title: Freelance E-commerce and Android platform developer
+email: info@frantakysela.com
 website_title: Buy me a coffee
 website: www.buymeacoffee.com/frantakysela
 
@@ -64,9 +64,10 @@ google_analytics: "UA-179241205-1"
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is <mark>Frank</mark>, or also <mark>František</mark> in Czech, i started to be interested in software development already in <mark>elementary school</mark>when i found a huge passion for mobile phones, especially <mark>Android based devices</mark>.
+  Hi, my name is <mark>Frank</mark>, or also <mark>František</mark> in Czech.
+  I'm a freelance e-commerce developer and Android platform developer. I started to be interested in Android platform development since I was 14 years old, I have something over 4 years of experience in it with some of the biggest projects in the development scene as a showcase of my work. On the E-commerce side I handle several e-shops and build sales funnels for various companies. Learning from the best and working with the best people in the field.
 
-  I am most skilled in: <mark>c/c++</mark> and <mark>bash</mark>
+  Don't worry to hit me up, I'm mostly open to anything.
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
