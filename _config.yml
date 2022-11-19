@@ -21,7 +21,7 @@ facebook_username: frantakysela
 #flickr_username: jekyll
 instagram_username: frantakysela
 linkedin_username: frantakysela
-
+youtube_username: UCoKibRktD3XD1t19t_dPXHA
 #xing_username: jekyll
 #pinterest_username: jekyll
 #youtube_username: jekyll
@@ -40,16 +40,16 @@ additional_links:
   icon: fa-paypal
   url: https://paypal.me/atgdroid
 - title: Twitch
-  icon: fa-twitch
+  icon: fa-brands fa-twitch
   url: https://m.twitch.tv/frantakysela
-- title: YouTube
-  icon: fa-youtube
-  url: https://youtube.com/channel/UCoKibRktD3XD1t19t_dPXHA
+#- title: YouTube
+#  icon: fa-youtube
+#  url: https://youtube.com/channel/UCoKibRktD3XD1t19t_dPXHA
 
 
 
 google_analytics: "UA-179241205-1"
- 
+
 # - title: another link
 #   icon: font awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -65,7 +65,7 @@ google_analytics: "UA-179241205-1"
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is <mark>Frank</mark>, or also <mark>František</mark> in Czech, i started to be interested in software development already in <mark>elementary school</mark>when i found a huge passion for mobile phones, especially <mark>Android based devices</mark>.
-  
+
   I am most skilled in: <mark>c/c++</mark> and <mark>bash</mark>
 
 # Projects Section
@@ -80,7 +80,7 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 more_title: #(Use this to override about more section title)
 #more_content: | # this will include new lines to allow paragraphs
-   
+
 
 # Footer
 footer_show_references: false
