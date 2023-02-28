@@ -14,7 +14,7 @@
   quote: >
    My completely first project which I coded, tested and shipped only using my phone during my classes on high school
   description: | # this will include new lines to allow paragraphs
-    This project was started completely only out of my own passion for Android, I enjoyed flashing different custom ROMs, kernels and other modifications on my phone through TWRP custom recovery, so that was the time when I thought about making my own version of it. At the beginning I didn't even know what I was doing but as time went, my programming skills were getting better, project started to grow and number of users started to increase until the project reached something around 100000 users. This project is now called as the mother of custom TWRP based development, since all modern projects are now deriving from this work. The main features which this project introduced was recovery password protection, support for Incremental MIUI OTA updates and automatic deactivation of DM-verity and forced encryption.
+    I'm proud to have initiated the RedWolf Recovery Project, born out of my passion for Android and tinkering with custom ROMs and kernels. Starting from scratch, I poured my heart and soul into creating my own version of TWRP custom recovery. As my programming skills improved, so did the project, eventually garnering a user base of around 100,000 people. Today, RedWolf Recovery Project is hailed as the mother of TWRP-based custom development, with many modern projects deriving from this work. Some of the main features introduced include recovery password protection, support for incremental MIUI OTA updates, and automatic deactivation of DM-verity and forced encryption.
 
 - name: Porting of TWRP
   link: https://forum.xda-developers.com/redmi-note-6-pro/development/recovery-twrp-3-2-3-0-atg-droid-t3891308
@@ -22,13 +22,19 @@
   quote: >
    Porting of TWRP for Xiaomi Redmi Note 6 Pro
   description: | # this will include new lines to allow paragraphs
-    I learned there a lot about static/dynamic libraries, how you can find library dependencies and how recovery device trees should be done right
+    I have hands-on experience with porting TWRP for the Xiaomi Redmi Note 6 Pro, which gave me a solid understanding of static and dynamic libraries, and how to identify library dependencies. Additionally, I became skilled at developing recovery device trees that deliver optimal performance.
+
+    If you're in need of an Android developer with expertise in TWRP porting, look no further. I'm committed to delivering top-quality solutions that meet your needs.
 
 - name: Automated Telegram channels
   dates: August 2019 - January 2020
   quote: >
-   Development of automated channels on Telegram platform through the official http bot API
+   I have extensive experience developing automated channels on the Telegram platform using the official http bot API.
   description: | # this will include new lines to allow paragraphs
-   I coded something around 30 automated channels which are based on bash scripts running under Gitlab's continuous integration, all these scripts are parsing data from web pages and sending complete posts to my channels.
+   To date, I've created around 30 channels that run on bash scripts under Gitlab's continuous integration.
+
+   These channels are designed to parse data from web pages and send complete posts directly to my channels. With this seamless, automated system in place, I'm always up-to-date with the latest information.
+
+   I'm confident in my ability to take your channels to the next level and provide expert guidance on automation and the Telegram platform.
 
 
