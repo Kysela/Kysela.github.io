@@ -1,56 +1,124 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Under Construction</title>
-	<style>
-		body {
-			background-color: #1c1c1c;
-			font-family: Arial, sans-serif;
-			text-align: center;
-			margin: 0;
-			padding: 0;
-			color: #fff;
-		}
-
-		h1 {
-			color: #fff;
-			margin-top: 50px;
-			font-size: 36px;
-			letter-spacing: 2px;
-			text-shadow: 2px 2px #000;
-		}
-
-		img {
-			width: 150px;
-			height: 150px;
-			margin-top: 20px;
-			filter: drop-shadow(2px 2px 2px #000);
-		}
-
-		.container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-			height: 100vh;
-			box-shadow: 0px 0px 20px #000;
-		}
-
-		.box {
-			padding: 20px;
-			border-radius: 5px;
-			box-shadow: 0px 0px 10px #000;
-			text-shadow: none;
-		}
-	</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>Contact Me</title>
+  <style>
+    *, *:before, *:after {
+      box-sizing: border-box;
+    }
+    body, h1, p, a {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      vertical-align: baseline;
+    }
+    a {
+      text-decoration: none;
+    }
+    body {
+      background: #000;
+      color: #fff;
+      line-height: 1;
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      overflow: hidden;
+      position: relative;
+    }
+    .container {
+      text-align: center;
+      width: 90%;
+      max-width: 400px;
+      padding: 2rem;
+      background-color: #000;
+      border-radius: 10px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    p.centered.no-wrap {
+      font-size: 1.2rem;
+      margin: 1rem 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-align: center;
+    }
+    a.button {
+      display: inline-flex;
+      align-items: center;
+      margin: 1rem 0.5rem;
+      padding: 0.5rem 1rem;
+      background-color: transparent;
+      border: 1px solid #fff;
+      border-radius: 5px;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 600;
+    }
+    #time-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 1rem 0;
+    }
+    .matrix-time-format {
+      font-family: "Courier New", monospace;
+      font-size: 1.6rem;
+      color: #fff;
+      margin: 0 15px;
+    }
+    #copyright {
+      margin-top: 1.5rem;
+    }
+  </style>
 </head>
 <body>
-	<div class="container">
-		<div class="box">
-			<h1>Under Construction</h1>
-			<p>We apologize for any inconvenience. Our website is currently under construction.</p>
-		</div>
-	</div>
+  <div class="container">
+    <h1>Contact Me</h1>
+    <p class="centered no-wrap">If you want to reach out, you can contact me via:</p>
+    <a href="https://t.me/frantakysela" class="button" target="_blank">
+      <i class="fab fa-telegram-plane"></i> Telegram
+    </a>
+    <a href="mailto:frantakysela@pm.me" class="button" target="_blank">
+      <i class="fas fa-envelope"></i> ProtonMail
+    </a>
+    <div id="time-container">
+      <div class="time-format">
+        <span id="matrix-time-12" class="matrix-time-format"></span>
+      </div>
+      <div class="time-format">
+        <span id="matrix-time-24" class="matrix-time-format"></span>
+      </div>
+    </div>
+    <div id="copyright">
+      &copy; 2023 František Kysela. All rights reserved.
+    </div>
+  </div>
+  <script>
+    function updateTime() {
+      const now = new Date().toLocaleString("en-US", { timeZone: "Europe/Prague" });
+      const czechTime = new Date(now);
+      const options12 = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true, timeZoneName: 'short' };
+      const time12 = new Intl.DateTimeFormat('en-US', options12).format(czechTime);
+      const options24 = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false, timeZoneName: 'short' };
+      const time24 = new Intl.DateTimeFormat('en-US', options24).format(czechTime);
+
+      document.getElementById("matrix-time-12").textContent = time12;
+      document.getElementById("matrix-time-24").textContent = time24;
+    }
+
+    updateTime();
+    setInterval(updateTime, 1000);
+  </script>
 </body>
 </html>
