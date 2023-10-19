@@ -7,118 +7,40 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <title>Contact Me</title>
   <style>
-    *, *:before, *:after {
-      box-sizing: border-box;
-    }
-    body, h1, p, a {
-      margin: 0;
-      padding: 0;
-      border: 0;
-      font-size: 100%;
-      vertical-align: baseline;
-    }
-    a {
-      text-decoration: none;
-    }
-    body {
-      background: #000;
-      color: #fff;
-      line-height: 1;
-      font-family: 'Poppins', sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-      overflow: hidden;
-      position: relative;
-    }
-    .container {
-      text-align: center;
-      width: 90%;
-      max-width: 400px;
-      padding: 2rem;
-      background-color: #000;
-      border-radius: 10px;
-    }
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-    }
-    p.centered.no-wrap {
-      font-size: 1.2rem;
-      margin: 1rem 0;
-      white-space: nowrap;
-      overflow: hidden;
-      text-align: center;
-    }
-    a.button {
-      display: inline-flex;
-      align-items: center;
-      margin: 1rem 0.5rem;
-      padding: 0.5rem 1rem;
-      background-color: transparent;
-      border: 1px solid #fff;
-      border-radius: 5px;
-      color: #fff;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      font-weight: 600;
-    }
-    #time-container {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      margin: 1rem 0;
-    }
-    .matrix-time-format {
-      font-family: "Courier New", monospace;
-      font-size: 1.6rem;
-      color: #fff;
-      margin: 0 15px;
-    }
-    #copyright {
-      margin-top: 1.5rem;
-    }
+    body,html {margin:0;padding:0;height:100%;overflow:hidden;}
+    body {font-family:'Poppins',sans-serif;background:#000;color:#fff;display:flex;justify-content:center;align-items:center;height:100vh;}
+    .container {max-width:400px;text-align:center;}
+    .header-wrap { text-align: center; }
+    .theme-icon {font-size:24px;cursor:pointer;}
+    h1 {font-size:2.5rem;font-weight:600;margin-bottom:1rem;}
+    a.button {display:inline-flex;align-items:center;margin:1rem .5rem;padding:.5rem 1rem;border:1px solid #fff;border-radius:5px;color:#fff;letter-spacing:1px;font-weight:600;transition:background .3s;text-decoration:none;}
+    a.button:hover {background:rgba(255,255,255,.1);}
+    .light-theme a.button {border:1px solid #000;color:#000;}
+    .light-theme a.button:hover {background:rgba(0,0,0,.1);}
+    #time-container {display:flex;justify-content:center;margin:1rem 0;}
+    .matrix-time-format {font-family:"Courier New",monospace;font-size:1.6rem;margin:0 15px;}
+    .light-theme {background:#fff;color:#000;}
+    .dark-theme {background:#000;color:#fff;}
+    #joke-container {margin-top:1.5rem;padding:1rem;font-size:.8rem;line-height:1.2;}
+    footer {margin-top:1.5rem;font-size:.9rem;}
   </style>
 </head>
-<body>
+<body id="body" class="dark-theme">
   <div class="container">
-    <h1>Contact Me</h1>
-    <p class="centered no-wrap">If you want to reach out, you can contact me via:</p>
-    <a href="https://t.me/frantakysela" class="button" target="_blank">
-      <i class="fab fa-telegram-plane"></i> Telegram
-    </a>
-    <a href="mailto:frantakysela@pm.me" class="button" target="_blank">
-      <i class="fas fa-envelope"></i> ProtonMail
-    </a>
-    <div id="time-container">
-      <div class="time-format">
-        <span id="matrix-time-12" class="matrix-time-format"></span>
-      </div>
-      <div class="time-format">
-        <span id="matrix-time-24" class="matrix-time-format"></span>
-      </div>
+    <div class="header-wrap">
+      <i id="theme-icon" class="fas fa-lightbulb theme-icon"></i>
+      <h1>Contact Me</h1>
     </div>
-    <div id="copyright">
-      &copy; 2023 František Kysela. All rights reserved.
-    </div>
+    <a href="https://t.me/frantakysela" class="button" target="_blank"><i class="fab fa-telegram-plane"></i> Telegram</a>
+    <a href="mailto:frantakysela@pm.me" class="button" target="_blank"><i class="fas fa-envelope"></i> ProtonMail</a>
+    <div id="time-container"><span id="matrix-time-24" class="matrix-time-format"></span></div>
+    <footer>&copy; 2023 František Kysela. All rights reserved.</footer>
+    <div id="joke-container"></div>
   </div>
   <script>
-    function updateTime() {
-      const now = new Date().toLocaleString("en-US", { timeZone: "Europe/Prague" });
-      const czechTime = new Date(now);
-      const options12 = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true, timeZoneName: 'short' };
-      const time12 = new Intl.DateTimeFormat('en-US', options12).format(czechTime);
-      const options24 = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false, timeZoneName: 'short' };
-      const time24 = new Intl.DateTimeFormat('en-US', options24).format(czechTime);
-
-      document.getElementById("matrix-time-12").textContent = time12;
-      document.getElementById("matrix-time-24").textContent = time24;
-    }
-
-    updateTime();
-    setInterval(updateTime, 1000);
+    document.getElementById('theme-icon').addEventListener('click',()=>{const e=document.getElementById('body');e.className='light-theme'===e.className?'dark-theme':'light-theme';});
+    const updateTime=()=>{const e=new Date().toLocaleString("en-US",{timeZone:"Europe/Prague"}),t=new Date(e),n={hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:!1},o=new Intl.DateTimeFormat('en-US',n).format(t);document.getElementById("matrix-time-24").textContent=o};updateTime(),setInterval(updateTime,1e3);
+    const jokes=["Why are you still here? Shouldn't you be contacting me?","You know, you could be sending an email instead of reading this!","Is this really the best use of your time? Click those contact buttons!","I promise, my response to your contact will be more entertaining than this page.","If you're here for the jokes, maybe it's time to contact me for real business.","The longer you stay, the higher the chance you'll miss reaching out to me!"],displayJoke=()=>{const e=document.getElementById('joke-container'),t=Math.floor(Math.random()*jokes.length),n=jokes[t];e.innerHTML=`<p>${n}</p>`};displayJoke();
   </script>
 </body>
 </html>
