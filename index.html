@@ -21,7 +21,6 @@
     .matrix-time-format {font-family:"Courier New",monospace;font-size:1.6rem;margin:0 15px;}
     .light-theme {background:#fff;color:#000;}
     .dark-theme {background:#000;color:#fff;}
-    #joke-container {margin-top:1.5rem;padding:1rem;font-size:.8rem;line-height:1.2;}
     footer {margin-top:1.5rem;font-size:.9rem;}
   </style>
 </head>
@@ -35,12 +34,10 @@
     <a href="mailto:frantakysela@pm.me" class="button" target="_blank"><i class="fas fa-envelope"></i> ProtonMail</a>
     <div id="time-container"><span id="matrix-time-24" class="matrix-time-format"></span></div>
     <footer>&copy; 2023 František Kysela. All rights reserved.</footer>
-    <div id="joke-container"></div>
   </div>
   <script>
     document.getElementById('theme-icon').addEventListener('click',()=>{const e=document.getElementById('body');e.className='light-theme'===e.className?'dark-theme':'light-theme';});
     const updateTime=()=>{const e=new Date().toLocaleString("en-US",{timeZone:"Europe/Prague"}),t=new Date(e),n={hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:!1},o=new Intl.DateTimeFormat('en-US',n).format(t);document.getElementById("matrix-time-24").textContent=o};updateTime(),setInterval(updateTime,1e3);
-    const jokes=["Why are you still here? Shouldn't you be contacting me?","You know, you could be sending an email instead of reading this!","Is this really the best use of your time? Click those contact buttons!","I promise, my response to your contact will be more entertaining than this page.","If you're here for the jokes, maybe it's time to contact me for real business.","The longer you stay, the higher the chance you'll miss reaching out to me!"],displayJoke=()=>{const e=document.getElementById('joke-container'),t=Math.floor(Math.random()*jokes.length),n=jokes[t];e.innerHTML=`<p>${n}</p>`};displayJoke();
   </script>
 </body>
 </html>
