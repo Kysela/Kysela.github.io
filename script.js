@@ -30,17 +30,46 @@ const mobileMenuBtn = document.getElementById('mobileMenuBtn');
 const navMenu = document.getElementById('navMenu');
 const mobileMenuIcon = mobileMenuBtn.querySelector('use');
 
-mobileMenuBtn.addEventListener('click', () => {
-  const isActive = navMenu.classList.toggle('active');
-  mobileMenuIcon.setAttribute('href', isActive ? '#icon-times' : '#icon-bars');
-}, { passive: true });
+const closeMobileMenu = () => {
+  navMenu.classList.remove('active');
+  document.body.classList.remove('menu-open');
+  mobileMenuIcon.setAttribute('href', '#icon-bars');
+};
+
+const openMobileMenu = () => {
+  navMenu.classList.add('active');
+  document.body.classList.add('menu-open');
+  mobileMenuIcon.setAttribute('href', '#icon-times');
+};
+
+mobileMenuBtn.addEventListener('click', (e) => {
+  e.stopPropagation();
+  if (navMenu.classList.contains('active')) {
+    closeMobileMenu();
+  } else {
+    openMobileMenu();
+  }
+});
 
 // Close mobile menu on link click
 document.querySelectorAll('.nav-menu a').forEach(link => {
-  link.addEventListener('click', () => {
-    navMenu.classList.remove('active');
-    mobileMenuIcon.setAttribute('href', '#icon-bars');
-  }, { passive: true });
+  link.addEventListener('click', closeMobileMenu);
+});
+
+// Close mobile menu when clicking outside
+document.addEventListener('click', (e) => {
+  if (navMenu.classList.contains('active') && 
+      !navMenu.contains(e.target) && 
+      !mobileMenuBtn.contains(e.target)) {
+    closeMobileMenu();
+  }
+});
+
+// Close mobile menu on escape key
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && navMenu.classList.contains('active')) {
+    closeMobileMenu();
+  }
 });
 
 // Time Display
